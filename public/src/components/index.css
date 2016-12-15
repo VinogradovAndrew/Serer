@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.input-holder {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    z-index: 10000;
+    outline: 0;
+}
+
+.icon-remove{
+    top:10px;
+}
+.list {
+    height: 600px;
+    border: 1px solid black;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+.list-item {
+    border-bottom: 1px solid grey;
+    color: #009fff;
+    font-weight: 500;
+}
+
+.categories-list-item {
+    padding: 8px 0 5px 10px;
+    font-size: 16px;
+}
+
+.todo-list-item {
+    padding: 30px 0 30px 10px;
+    font-size: 26px;
+}
+
+.todo-checkbox {
+    width: 16px;
+    height: 16px;
+    margin-right: 40px;
+}
+
+.icon-cm {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.clickAble {
+    cursor:pointer;
+}
+
+.task-name{
+    margin-top:15px;
+}
+.edit-todo {
+    margin-top:50px;
+}
+.btn-cancel {
+    margin-left:10px;
+}
+.task-mark-done {
+    margin-top:30px;
+    font-size:18px;
+    color: #009fff;
+}
+
+.task-mark-done .checkbox {
+    padding-left:0;
+}
+
+.task-mark-done input{
+    width: 15px;
+    height: 20px;
+}
+
+.edit-todo textarea {
+    height: 410px;
+}
+.icon-edit-todo {
+    margin-right: 20px;
+}
+.move-to-category {
+    transform: rotate(180deg);
+}
+.nested-categories .list-item:last-child {
+    border-bottom:0;
+}
